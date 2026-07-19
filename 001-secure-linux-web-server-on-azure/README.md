@@ -37,6 +37,18 @@ The solution must satisfy the following requirements:
 - Allow future scalability
 - Keep monthly operational costs low
 
+## Why was Ubuntu Server selected?
+
+Ubuntu Server LTS was chosen due to its stability, long-term support, low licensing cost, and excellent compatibility with Docker and cloud environments.
+
+## Why was Docker selected?
+
+Docker was selected to simplify application deployment by packaging the application and its dependencies into containers, ensuring consistent deployments across environments.
+
+## Why was a Virtual Network (VNet) created?
+
+An Azure Virtual Network provides secure communication between Azure resources and allows the infrastructure to be segmented and expanded as business requirements evolve.
+
 ## Azure Services Used
 
 | Service | Purpose |
