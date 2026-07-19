@@ -4,7 +4,7 @@
 
 ## Executive Summary
 
-A fictional company, **Tailwind Consulting**, requires a secure and reliable Linux web server to host an internal business application.
+A Tailwind Traders requires a secure and reliable Linux web server to host an internal business application.
 
 The company currently operates without a centralized hosting platform and wants to migrate to Microsoft Azure to improve reliability, security, and scalability while keeping operational costs low.
 
