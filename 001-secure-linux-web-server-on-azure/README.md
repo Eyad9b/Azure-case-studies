@@ -12,9 +12,7 @@ This case study demonstrates how an Ubuntu Server virtual machine can be deploye
 
 ## Business Scenario
 
-ABC Consulting is a small company with approximately 40 employees.
-
-The company wants to migrate an internally hosted web application to Microsoft Azure.
+Contoso Ltd. is a consulting company with approximately 40 employees. The company plans to migrate its internal web application to Microsoft Azure to improve security, scalability, and operational efficiency.
 
 Current challenges include:
 
