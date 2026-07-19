@@ -51,6 +51,8 @@ The solution must satisfy the following requirements:
 ## Solution Architecture
 
 ![Image Description](images/so-diagram.png)
+![Image Description](images/Ubuntu on AZ-VM.png)
+
 
 
 
