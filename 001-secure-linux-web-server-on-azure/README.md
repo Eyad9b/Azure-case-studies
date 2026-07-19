@@ -106,3 +106,12 @@ The deployment was validated by confirming:
 - Docker service started automatically.
 - The Nginx container responded to HTTP requests.
 - Network Security Group rules functioned as expected.
+
+## Cost Considerations
+
+The solution was designed to minimize operational costs by:
+
+- Using a small VM size suitable for development and testing
+- Avoiding unnecessary Azure services
+- Selecting cost-effective storage options
+- Scaling resources only when required
