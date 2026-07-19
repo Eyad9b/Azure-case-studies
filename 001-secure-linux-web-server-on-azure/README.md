@@ -4,4 +4,105 @@
 
 ## Executive Summary
 
-*This section will summarize the business problem and the proposed solution.*
+A fictional company, **Tailwind Consulting**, requires a secure and reliable Linux web server to host an internal business application.
+
+The company currently operates without a centralized hosting platform and wants to migrate to Microsoft Azure to improve reliability, security, and scalability while keeping operational costs low.
+
+This case study demonstrates how an Ubuntu Server virtual machine can be deployed on Microsoft Azure and secured using Azure networking, Network Security Groups (NSGs), UFW firewall, Docker, and Nginx. The solution follows Azure security best practices and provides a solid foundation for future growth.
+
+## Business Scenario
+
+ABC Consulting is a small company with approximately 40 employees.
+
+The company wants to migrate an internally hosted web application to Microsoft Azure.
+
+Current challenges include:
+
+- Aging on-premises infrastructure
+- No centralized backup strategy
+- Limited scalability
+- Manual server maintenance
+- Security concerns
+
+The objective is to deploy a secure Linux web server that can host the application while remaining easy to maintain and cost-effective.
+
+## Business Requirements
+
+The solution must satisfy the following requirements:
+
+- Host a Linux-based web server
+- Use Microsoft Azure as the hosting platform
+- Provide secure remote administration using SSH
+- Restrict unnecessary inbound traffic
+- Support Docker containers
+- Be easy to maintain
+- Allow future scalability
+- Keep monthly operational costs low
+
+- ## Azure Services Used
+
+| Service | Purpose |
+|---------|---------|
+| Azure Virtual Machine | Hosts the Ubuntu Server |
+| Azure Virtual Network | Provides network connectivity |
+| Network Security Group (NSG) | Controls inbound and outbound traffic |
+| Public IP Address | Allows secure remote access |
+| Azure Monitor | Basic monitoring and metrics |
+| Azure Managed Disks | Persistent storage |
+
+## Solution Architecture
+
+
+
+
+
+
+## Deployment Steps
+
+### Step 1
+Create a Resource Group.
+
+### Step 2
+Deploy an Ubuntu Server 24.04 LTS virtual machine.
+
+### Step 3
+Create a Virtual Network and Subnet.
+
+### Step 4
+Associate a Network Security Group.
+
+### Step 5
+Allow inbound SSH (22).
+
+### Step 6
+Install Docker.
+
+### Step 7
+Deploy an Nginx container.
+
+### Step 8
+Verify web access.
+
+
+## Security Implementation
+
+The following security measures were implemented:
+
+- Restricted inbound traffic using Network Security Groups (NSGs)
+- Allowed only required ports (22, 80, and 443)
+- Configured UFW on the Linux server
+- Disabled unnecessary services
+- Enabled automatic security updates
+- Used SSH key authentication instead of passwords
+- Applied the principle of least privilege
+
+
+## Validation & Testing
+
+The deployment was validated by confirming:
+
+- The virtual machine was running successfully.
+- SSH access was available.
+- Docker service started automatically.
+- The Nginx container responded to HTTP requests.
+- Network Security Group rules functioned as expected.
