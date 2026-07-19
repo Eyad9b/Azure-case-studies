@@ -37,7 +37,7 @@ The solution must satisfy the following requirements:
 - Allow future scalability
 - Keep monthly operational costs low
 
-- ## Azure Services Used
+## Azure Services Used
 
 | Service | Purpose |
 |---------|---------|
