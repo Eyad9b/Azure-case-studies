@@ -17,3 +17,12 @@ This repository contains practical Azure solutions based on real-world business 
 - Disaster Recovery
 - Cost Optimization
 
+## Case Studies
+
+| ID | Title | Status |
+|----|-------|--------|
+| 001 | Secure Linux Web Server on Azure |✅ Completed |
+| 002 | Deploying Azure Infrastructure Using Terraform |🚧 In Progress |
+
+
+
