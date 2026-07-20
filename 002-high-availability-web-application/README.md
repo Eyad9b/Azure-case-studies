@@ -111,4 +111,4 @@ The new design also establishes a strong foundation for future enhancements such
 
 ## Solution Design Decisions
 
-![Image Description](solution/SPF.png)
+![Image Description](images/solution.png)
