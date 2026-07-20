@@ -48,9 +48,7 @@ The new deployment process must:
 
 # Solution Design Decisions
 
-## Why was Microsoft Azure selected?
 
-Microsoft Azure provides a secure and scalable cloud platform with integrated networking, identity management, monitoring, and virtual machine services. It aligns with the company's existing Microsoft ecosystem and supports future expansion.
 
 ---
 
