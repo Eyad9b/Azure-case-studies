@@ -35,3 +35,8 @@ the entire website becomes unavailable until the issue is resolved.
 
 ## Business Challenges
 The current infrastructure presents several challenges that limit business continuity and operational efficiency.
+
+# Single Point of Failure
+The web application is hosted on a single virtual machine. Any failure immediately results in complete service interruption.
+
+# Limited Scalability
