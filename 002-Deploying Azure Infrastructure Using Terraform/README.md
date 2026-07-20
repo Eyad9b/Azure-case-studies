@@ -17,3 +17,14 @@ Following the successful manual deployment of a Linux web server, Contoso Ltd. p
 The IT team currently provisions infrastructure manually through the Azure portal, which increases deployment time and introduces the risk of inconsistent configurations.
 
 The objective is to implement Infrastructure as Code using Terraform to automate infrastructure deployment while improving reliability and operational efficiency.
+
+## Business Requirements
+
+The solution must:
+
+- Automate Azure infrastructure deployment.
+- Deploy infrastructure consistently across environments.
+- Reduce manual configuration errors.
+- Support version control using Git.
+- Be reusable for future deployments.
+- Minimize deployment time.
