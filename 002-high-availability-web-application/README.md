@@ -86,3 +86,5 @@ The solution should maximize availability while minimizing unnecessary infrastru
 
 ### Operational Simplicity
 The infrastructure should remain easy to maintain, monitor, and extend as business requirements evolve.
+
+--
