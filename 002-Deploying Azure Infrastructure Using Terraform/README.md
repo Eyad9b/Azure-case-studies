@@ -100,24 +100,7 @@ Ubuntu Server LTS was selected because it is stable, lightweight, widely support
 
 # Solution Architecture
 
-```text
-Developer
-      │
-Terraform
-      │
-Azure Provider
-      │
-Resource Group
-      │
-Virtual Network
-      │
-Subnet
-      │
-Network Security Group
-      │
-Public IP
-      │
-Ubuntu Linux VM
+![Image Description](images/diagram002.png)
 ```
 
 ---
