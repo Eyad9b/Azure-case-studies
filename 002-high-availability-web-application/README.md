@@ -40,3 +40,49 @@ The current infrastructure presents several challenges that limit business conti
 The web application is hosted on a single virtual machine. Any failure immediately results in complete service interruption.
 
 ### Limited Scalability
+As customer demand increases, scaling requires manual deployment of additional virtual machines, resulting in increased administrative effort and longer deployment times.
+
+### Planned Maintenance Causes Downtime
+Routine operating system updates, security patches, and application maintenance require the server to be restarted, temporarily interrupting customer access.
+
+### Increased Operational Risk
+Infrastructure failures have a direct financial impact due to lost transactions and decreased customer confidence.
+
+### Lack of Automatic Failover
+If the server becomes unavailable, no secondary server automatically assumes responsibility for processing incoming traffic.
+
+## Business Impact
+Potential consequences include:
+
+Lost online sales
+Reduced customer satisfaction
+Increased support requests
+Negative brand reputation
+Financial losses during peak business periods
+
+## Business Requirements
+To address the identified challenges, the organization established the following technical and business requirements.
+
+### Availability
+The application must maintain high availability and eliminate single points of failure.
+
+### Fault Tolerance
+The infrastructure must continue serving customer requests even if one virtual machine becomes unavailable.
+
+### Load Distribution
+Incoming client requests must be distributed evenly across multiple web servers.
+
+### Health Monitoring
+The solution must automatically detect unhealthy servers and stop routing traffic to them.
+
+### Scalability
+The architecture should support future expansion without requiring major redesign.
+
+### Security
+Only HTTP and HTTPS traffic should be publicly accessible,Administrative SSH access must be restricted to authorized administrators.
+
+### Cost Efficiency
+The solution should maximize availability while minimizing unnecessary infrastructure costs.
+
+### Operational Simplicity
+The infrastructure should remain easy to maintain, monitor, and extend as business requirements evolve.
