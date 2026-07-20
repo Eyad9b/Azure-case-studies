@@ -50,7 +50,6 @@ The new deployment process must:
 
 
 
----
 
 ## Why was Terraform selected?
 
