@@ -90,4 +90,4 @@ The infrastructure should remain easy to maintain, monitor, and extend as busine
 ---
 Existing Environment and Current Architecture
 The existing production environment consists of a single Linux virtual machine hosted within Microsoft Azure
-
+![Image Description](inages/SPF.png)
