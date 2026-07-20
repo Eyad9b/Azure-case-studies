@@ -22,7 +22,7 @@ This repository contains practical Azure solutions based on real-world business 
 | ID | Title | Status |
 |----|-------|--------|
 | 001 | Secure Linux Web Server on Azure |✅ Completed |
-| 002 | Deploying Azure Infrastructure Using Terraform |🚧 In Progress |
+| 002 |  | |
 
 
 
