@@ -46,7 +46,7 @@ The new deployment process must:
 
 ---
 
-Solution Design Decisions
+## Solution Design Decisions
 ## Why was Terraform selected?
 
 Terraform was selected because it enables Infrastructure as Code (IaC), allowing Azure resources to be defined in code rather than deployed manually. This improves consistency, repeatability, collaboration, and change tracking through Git.
