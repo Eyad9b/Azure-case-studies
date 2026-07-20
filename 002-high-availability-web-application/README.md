@@ -92,3 +92,19 @@ The infrastructure should remain easy to maintain, monitor, and extend as busine
 The existing production environment consists of a single Linux virtual machine hosted within Microsoft Azure
 
 ![Image Description](images/SPF.png)
+
+## Proposed Solution
+
+The redesigned solution distributes incoming client traffic across two Ubuntu Linux virtual machines deployed in separate Azure Availability Zones.
+Azure Load Balancer serves as the entry point for all incoming requests. It continuously evaluates the health of each backend server using Health Probes
+If one virtual machine becomes unavailable, Azure automatically removes it from the backend pool and redirects traffic to the remaining healthy server without requiring manual intervention
+
+The proposed architecture provides several business benefits:
+- Eliminates the single point of failure.
+- Improves application availability.
+- Reduces planned maintenance downtime.
+- Supports future scalability.
+- Improves customer experience.
+- Increases operational resilience.
+
+The new design also establishes a strong foundation for future enhancements such as Virtual Machine Scale Sets, Azure Front Door, Application Gateway, and Web Application Firewall
