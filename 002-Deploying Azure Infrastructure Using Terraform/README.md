@@ -1,4 +1,4 @@
-Case Study 002
+## Case Study 002
 
 Automating Azure Infrastructure Deployment Using Terraform
 
