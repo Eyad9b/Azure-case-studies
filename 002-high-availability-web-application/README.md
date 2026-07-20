@@ -108,3 +108,7 @@ The proposed architecture provides several business benefits:
 - Increases operational resilience.
 
 The new design also establishes a strong foundation for future enhancements such as Virtual Machine Scale Sets, Azure Front Door, Application Gateway, and Web Application Firewall
+
+## Solution Design Decisions
+
+![Image Description](solution/SPF.png)
