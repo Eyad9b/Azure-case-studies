@@ -269,3 +269,18 @@ Microsoft Entra ID, RBAC, Private Endpoints, HTTPS, and Immutable Storage secure
 Centralized cloud storage simplifies administration, monitoring, and future expansion.
 
 ---
+
+## Proposed Azure Storage Solution Architecture
+
+![Image DEscription](images/Final-solution.png)
+
+### The proposed architecture delivers the following business outcomes.
+
+- Centralized cloud-based storage.
+- Reduced operational costs.
+- Improved website performance.
+- Secure storage for sensitive business documents.
+- Automatic storage optimization.
+- Global content availability.
+- Long-term compliance support.
+- Simplified storage management.
