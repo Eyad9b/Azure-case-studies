@@ -225,4 +225,47 @@ The proposed architecture follows Azure security best practices.
 
 ![Image DEscription](images/CDN.png)
 
-This architecture reduces latency, improves download performance, and offloads traffic from the primary application servers
+This architecture reduces latency, improves download performance, and offloads traffic from the primary application servers.
+
+---
+
+# Cost Optimization
+
+The solution reduces storage costs by implementing:
+
+- Azure Blob Storage
+- Lifecycle Management
+- Cool Storage Tier
+- Archive Storage Tier
+- Automatic tier transitions
+- Elimination of duplicate content
+
+These improvements ensure that storage costs align with actual data access patterns.
+
+---
+
+# Azure Well-Architected Framework
+
+The proposed solution aligns with Microsoft's Azure Well-Architected Framework.
+
+### Cost Optimization
+
+Lifecycle Management and Blob Access Tiers minimize storage expenses.
+
+### Performance Efficiency
+
+Azure CDN delivers media content with low latency to customers worldwide.
+
+### Reliability
+
+Geo-redundant storage protects business data against regional failures.
+
+### Security
+
+Microsoft Entra ID, RBAC, Private Endpoints, HTTPS, and Immutable Storage secure sensitive information.
+
+### Operational Excellence
+
+Centralized cloud storage simplifies administration, monitoring, and future expansion.
+
+---
