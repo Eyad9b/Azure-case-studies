@@ -70,3 +70,7 @@ Administrators use Privileged Identity Management to elevate permissions only wh
 | Azure Virtual Machines         | Infrastructure                  |
 | Azure Portal                   | Cloud Management                |
 
+
+## Design Objectives
+
+### 1. Secure User Authentication
