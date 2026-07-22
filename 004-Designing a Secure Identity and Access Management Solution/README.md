@@ -137,3 +137,61 @@ Security Team
 Administrators no longer receive permanent Global Administrator permissions.
 
 ![Image Description](images/PIM.png)
+
+### 6.Single Sign-On
+
+Users authenticate once through Microsoft Entra ID.
+
+Accessible resources include:
+
+- Microsoft 365
+- Azure Portal
+- Azure Virtual Machines
+- Azure Storage
+- Internal Applications
+
+### 7.Hybrid Identity
+
+#### If the organization maintains on-premises Active Directory:
+
+Objects synchronized:
+- Users
+- Groups
+- Password Hashes
+
+### 8.Monitoring
+
+Authentication events are collected within:
+
+- Azure Monitor
+- Microsoft Entra Sign-in Logs
+- Audit Logs
+
+#### Monitored events include:
+
+- Failed sign-ins
+- Successful logins
+- MFA failures
+- Risk detections
+- Privileged role activations
+
+## Security Best Practices Implemented
+✔ Zero Trust Architecture
+
+✔ Least Privilege
+
+✔ Just-In-Time Administration
+
+✔ Identity Protection
+
+✔ Conditional Access
+
+✔ MFA
+
+✔ Centralized Identity
+
+✔ Secure Hybrid Identity
+
+✔ Audit Logging
+
+✔ Role Separation
