@@ -2,9 +2,11 @@
 # Designing a Secure Identity and Access Management Solution 
 
 ## Executive Summary
+
 This case study demonstrates how to design a secure identity platform for an enterprise organization migrating workloads to Microsoft Azure
 The objective is to centralize identity management, strengthen authentication security, reduce administrative risk, and provide seamless access to cloud resources using Microsoft Entra ID
 This solution follows Microsoft Cloud Adoption Framework recommendations and Zero Trust security principles.
+
 ---
 
 ## Business Scenario
