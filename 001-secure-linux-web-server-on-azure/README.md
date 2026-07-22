@@ -95,6 +95,8 @@ Deploy an Nginx container.
 ### Step 8
 Verify web access.
 
+![Image Description](images/CLI.png)
+
 
 ## Security Implementation
 
