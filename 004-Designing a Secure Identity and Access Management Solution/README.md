@@ -195,3 +195,57 @@ Authentication events are collected within:
 ✔ Audit Logging
 
 ✔ Role Separation
+
+## Implementation Steps
+
+### 1. Create Microsoft Entra ID tenant.
+
+### 2. Create security groups 
+
+For Example: IT Administrators, Developers, Operations
+
+### 3. Enable Multi-Factor Authentication 
+
+### 4. Configure Conditional Access policies.
+
+- Require MFA for administrators
+- Block legacy authentication
+- Require compliant devices
+- Restrict access by country
+
+### 5. Configure Azure RBAC
+
+You can Assign:
+- Reader
+- Contributor
+- Storage Contributor
+- Network Contributor
+
+### 6. Enable Privileged Identity Management
+
+Configure:
+
+- Eligible assignments
+- Approval workflow
+- Activation duration
+- MFA requirement
+
+### 7. Enable Microsoft Entra Connect (If there is on-prem)
+
+Synchronize:
+
+- Users
+- Groups
+- Password Hash Sync
+
+### 8. Configure Enterprise Applications.
+
+Enable Single Sign-On for:
+
+- Microsoft 365
+- Azure Portal
+- Internal Web Apps
+
+### 9. Enable Sign-in Logs.
+
+Forward logs to Azure Monitor.
