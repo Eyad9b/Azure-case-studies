@@ -22,7 +22,8 @@ This repository contains practical Azure solutions based on real-world business 
 | ID | Title | Status |
 |----|-------|--------|
 | 001 | Secure Linux Web Server on Azure |✅ Completed |
-| 002 | High Availability web App | |
+| 002 | High Availability web App | ✅ Completed |
+| 003 | Designing a Non-Relational Storage Solution |✅ Completed |
 
 
 
