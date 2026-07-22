@@ -74,3 +74,66 @@ Administrators use Privileged Identity Management to elevate permissions only wh
 ## Design Objectives
 
 ### 1. Secure User Authentication
+
+Every employee must authenticate using Microsoft Entra ID, Security controls include:
+- MFA
+- Password protection
+- Risk detection
+
+### 2. Conditional Access
+
+Policies enforce authentication based on:
+
+- User Group
+- Device Compliance
+- Geographic Location
+- Risk Level
+- Client Application
+
+Example: if user = IT Administrators && Location != Trusted Country
+Then
+Require MFA OR Block Access
+
+### 3. Multi-Factor Authentication
+
+Implemented for:
+
+- Administrators
+- Remote users
+- Sensitive applications
+
+Supported methods:
+
+- Microsoft Authenticator
+- FIDO2 Security Keys
+- SMS
+- Temporary Access Pass
+
+### 4. Role-Based Access Control
+
+we can use built-in-Azure roles rather than assigning Owner permissions broadly for example:
+Business Users
+
+- Reader
+
+Developers
+
+- Contributor
+
+Storage Team
+
+- Storage Blob Data Contributor
+
+Network Team
+
+- Network Contributor
+
+Security Team
+
+- Security Administrator
+
+### 5. Privileged Identity Management (PIM)
+
+Administrators no longer receive permanent Global Administrator permissions.
+
+![Image Description](images/PIM.png)
