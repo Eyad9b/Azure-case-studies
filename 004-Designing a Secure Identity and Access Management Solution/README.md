@@ -50,4 +50,23 @@ The architecture consists of Microsoft Entra ID acting as the centralized identi
 Hybrid identities are synchronized from On-Premises Active Directory using Microsoft Entra Connect.
 
 Administrators use Privileged Identity Management to elevate permissions only when required
+
 ---
+
+## Azure Services Used
+
+|             Service            |             Purpose             |
+|:------------------------------:|:-------------------------------:|
+| Microsoft Entra ID             | Identity Provider               |
+| Microsoft Entra Connect        | Hybrid Identity Synchronization |
+| Conditional Access             | Access Policies                 |
+| Multi-Factor Authentication    | Strong Authentication           |
+| Privileged Identity Management | Just-In-Time Administration     |
+| Azure RBAC                     | Least Privilege Access          |
+| Azure Monitor                  | Authentication Monitoring       |
+| Sign-in Logs                   | Security Auditing               |
+| Microsoft 365                  | SSO Application                 |
+| Azure Storage                  | Cloud Resource                  |
+| Azure Virtual Machines         | Infrastructure                  |
+| Azure Portal                   | Cloud Management                |
+
